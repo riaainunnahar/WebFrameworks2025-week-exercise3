@@ -20,7 +20,7 @@ The calculator should display the **total cost per hour**, **day**, **month**, a
 1. **Component Implementation**:
     - Create a React component named `CostCalculator`.
     - Accept a prop `priceOfSingleVMPerHour` (type: `number`) representing the cost of a single VM per hour.
-    - Render the `CostCalculator.tsx` file in the same folder as `App.tsx`.
+    - Render the `CostCalculator` component in the `App` component.
 
 2. **UI Structure**:
     The `CostCalculator` component should render:
