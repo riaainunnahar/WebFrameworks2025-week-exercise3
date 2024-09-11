@@ -73,8 +73,8 @@ The calculator should display the **total cost per hour**, **day**, **month**, a
 
 Inside the project directory, you can run the following commands:
 
-### `npm start`
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser to view it. The page will reload as you make changes, and you may also see any lint errors in the console.
+### `npm run dev`
+Runs the app in development mode. Open your browser in the localhost address and port indicated in your terminal after executing the command. The page will reload as you make changes, and you may also see any lint errors in the console.
 
 ### `npm test`
 Launches the test runner to test your implementation. Refer to [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
