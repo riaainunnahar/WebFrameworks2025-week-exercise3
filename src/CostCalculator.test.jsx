@@ -14,7 +14,7 @@ test("Test if the CostCalculator renders the correct costs with 1 VM and 0.5 cos
   // enter input value of 1
   const inputField = screen.getByLabelText(/Number of VMs/i);
   act(() => {
-    userEvent.type(inputField, "1");
+    fireEvent.change(inputField, { target: { value: "1" } });
   });
 
   // check if the cost per hour is 0.5
